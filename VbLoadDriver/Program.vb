@@ -89,8 +89,6 @@ Module Program
             End Try
         Catch ex As Exception
             Console.WriteLine("Error: " & ex.Message)
-        Finally
-            Console.ReadLine()
         End Try
 
     End Sub
